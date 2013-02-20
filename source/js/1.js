@@ -13,6 +13,9 @@
 // @description: 
 (function (window, document, undefined) {
     'use strict';
+
+    document.domain = 'iyoudao.com';
+
     var dead = [];
 
     var animal = function (n) {
