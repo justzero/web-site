@@ -14,10 +14,6 @@
 (function (window, document, undefined) {
     'use strict';
 
-    document.domain = 'iyoudao.net';
-    window.callback = function (imgUrl) {
-        console.log(imgUrl);
-    };
 
     var dead = [];
 
@@ -33,6 +29,6 @@
 
     var dog = animal ('scruffy');
     dog.kill();
-    console.log(dead);
+    //console.log(dead);
 
 }(window, document));
