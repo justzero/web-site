@@ -6,6 +6,7 @@
     <script type="text/javascript">
     document.domain = 'iyoudao.net';
     var imgUrl = "<?= $_GET['url'] ?>";
+    window.parent.callback(imgUrl);
     </script>
 </head>
 <body>

@@ -15,6 +15,9 @@
     'use strict';
 
     document.domain = 'iyoudao.net';
+    window.callback = function (imgUrl) {
+        console.log(imgUrl);
+    };
 
     var dead = [];
 
