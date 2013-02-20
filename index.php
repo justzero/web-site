@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>test</title>
     <script type="text/javascript">
-    document.domain = 'iyoudao.com';
+    document.domain = 'iyoudao.net';
     var imgUrl = "<?= $_GET['url'] ?>";
     </script>
 </head>

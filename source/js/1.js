@@ -14,7 +14,7 @@
 (function (window, document, undefined) {
     'use strict';
 
-    document.domain = 'iyoudao.com';
+    document.domain = 'iyoudao.net';
 
     var dead = [];
 
