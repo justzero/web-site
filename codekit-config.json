@@ -2,19 +2,6 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8248",
   "files" : {
-    "\/source\/less\/main.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/source\/less\/main.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/compiled\/css\/main.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/compiled\/default\/images\/icons.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -25,6 +12,17 @@
       "outputAbbreviatedPath" : "\/compiled\/default\/images\/icons.png",
       "initialSize" : 12005,
       "fileType" : 8192
+    },
+    "\/compiled\/js-lib\/editor_all.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/compiled\/js-lib\/editor_all.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/compiled\/js\/editor_all-dev.js",
+      "fileType" : 64
     },
     "\/compiled\/default\/css\/ueditor.css" : {
       "ignoreWasSetByUser" : 0,
@@ -154,6 +152,17 @@
       "initialSize" : 122,
       "fileType" : 8192
     },
+    "\/compiled\/default\/images\/cursor_h.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/compiled\/default\/images\/cursor_h.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/compiled\/default\/images\/cursor_h.png",
+      "initialSize" : 175,
+      "fileType" : 8192
+    },
     "\/compiled\/css\/main.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -162,17 +171,6 @@
       "inputAbbreviatedPath" : "\/compiled\/css\/main.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
-    },
-    "\/compiled\/default\/images\/cursor_v.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/compiled\/default\/images\/cursor_v.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/compiled\/default\/images\/cursor_v.png",
-      "initialSize" : 177,
-      "fileType" : 8192
     },
     "\/compiled\/js-lib\/underscore-min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -183,6 +181,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/compiled\/js\/underscore-min-dev.js",
+      "fileType" : 64
+    },
+    "\/compiled\/js\/editor_config-dev.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/compiled\/js\/editor_config-dev.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/compiled\/js\/editor_config-dev-dev.js",
       "fileType" : 64
     },
     "\/compiled\/default\/images\/dialog-title-bg.png" : {
@@ -196,26 +205,15 @@
       "initialSize" : 938,
       "fileType" : 8192
     },
-    "\/compiled\/js\/editor_config-dev.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/compiled\/js\/editor_config-dev.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/compiled\/js\/editor_config-dev-dev.js",
-      "fileType" : 64
-    },
-    "\/compiled\/default\/images\/cursor_h.png" : {
+    "\/compiled\/default\/images\/cursor_v.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/compiled\/default\/images\/cursor_h.png",
+      "inputAbbreviatedPath" : "\/compiled\/default\/images\/cursor_v.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/compiled\/default\/images\/cursor_h.png",
-      "initialSize" : 175,
+      "outputAbbreviatedPath" : "\/compiled\/default\/images\/cursor_v.png",
+      "initialSize" : 177,
       "fileType" : 8192
     },
     "\/compiled\/js-lib\/uparse.js" : {
@@ -317,17 +315,6 @@
       "outputAbbreviatedPath" : "\/compiled\/js\/editor-dev.js",
       "fileType" : 64
     },
-    "\/source\/jade\/includes\/ascii.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/source\/jade\/includes\/ascii.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/compiled\/page\/ascii.html",
-      "fileType" : 512
-    },
     "\/source\/jade\/index.jade" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -347,6 +334,17 @@
       "inputAbbreviatedPath" : "\/compiled\/page\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/source\/jade\/includes\/ascii.jade" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/source\/jade\/includes\/ascii.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 1,
+      "outputAbbreviatedPath" : "\/compiled\/page\/ascii.html",
+      "fileType" : 512
     },
     "\/compiled\/js\/1-dev.js" : {
       "ignoreWasSetByUser" : 0,
@@ -399,16 +397,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/source\/js\/upload.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 0,
+    "\/compiled\/page\/meta.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/source\/js\/upload.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/compiled\/js\/upload-dev.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/compiled\/page\/meta.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/source\/jade\/layout\/layout1.jade" : {
       "ignoreWasSetByUser" : 0,
@@ -421,14 +417,16 @@
       "outputAbbreviatedPath" : "\/compiled\/page\/layout1.html",
       "fileType" : 512
     },
-    "\/compiled\/page\/meta.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+    "\/source\/js\/upload.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/compiled\/page\/meta.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/source\/js\/upload.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/compiled\/js\/upload-dev.js",
+      "fileType" : 64
     },
     "\/compiled\/js\/zh-cn.js" : {
       "ignoreWasSetByUser" : 0,
@@ -461,16 +459,18 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/compiled\/js-lib\/editor_all.js" : {
+    "\/source\/less\/main.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/compiled\/js-lib\/editor_all.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/compiled\/js\/editor_all-dev.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/source\/less\/main.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/compiled\/css\/main.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     }
   },
   "manualImportLinks" : [
