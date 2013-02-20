@@ -15,10 +15,31 @@
     'use strict';
     //实例化编辑器
     var ue = UE.getEditor('editor');
+    window.callback = insertImage;
 
     ue.addListener('ready',function(){
         this.focus()
     });
+
+    function insertImage(url) {
+        if (!url) {
+            return;
+        }
+        var imgObjs = {
+            src: url,
+            data_ue_src: url,
+            width: '50',
+            height: '50',
+            border: '0',
+            floatStyle: 'none',
+            vspace: 0,
+            hspace: 0,
+            title: '111',
+            style: 'width: 50px; height: 50px;'
+        };
+
+        ue.execCommand("insertImage", imgObjs);
+    }
 
     function insertHtml(){
         var value = prompt('插入html代码','');
