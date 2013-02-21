@@ -4412,7 +4412,7 @@ var fillCharReg = new RegExp(domUtils.fillChar, 'g');///import editor.js
                         width:"100%",
                         height:"100%",
                         frameborder:"0",
-                        src:'javascript:void(function(){document.open();document.domain="' + document.domain + '";' +
+                        src:'javascript:void(function(){document.open();document.domain="' + 'iyoudao.net' + '";' +
                                 'document.write("' + html + '");document.close();}())'
                     } ) );
                 } else {
