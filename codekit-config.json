@@ -2,19 +2,6 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8248",
   "files" : {
-    "\/source\/less\/main.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/source\/less\/main.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/compiled\/css\/main.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/compiled\/default\/images\/icons.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -25,6 +12,17 @@
       "outputAbbreviatedPath" : "\/compiled\/default\/images\/icons.png",
       "initialSize" : 12005,
       "fileType" : 8192
+    },
+    "\/compiled\/js-lib\/editor_all.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/compiled\/js-lib\/editor_all.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/compiled\/js\/editor_all-dev.js",
+      "fileType" : 64
     },
     "\/compiled\/default\/css\/ueditor.css" : {
       "ignoreWasSetByUser" : 0,
@@ -132,15 +130,15 @@
       "initialSize" : 216,
       "fileType" : 8192
     },
-    "\/compiled\/default\/images\/cursor_h.png" : {
+    "\/compiled\/default\/images\/scale.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/compiled\/default\/images\/cursor_h.png",
+      "inputAbbreviatedPath" : "\/compiled\/default\/images\/scale.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/compiled\/default\/images\/cursor_h.png",
-      "initialSize" : 175,
+      "outputAbbreviatedPath" : "\/compiled\/default\/images\/scale.png",
+      "initialSize" : 167,
       "fileType" : 8192
     },
     "\/compiled\/default\/images\/sparator_v.png" : {
@@ -185,6 +183,17 @@
       "outputAbbreviatedPath" : "\/compiled\/js\/underscore-min-dev.js",
       "fileType" : 64
     },
+    "\/compiled\/js\/editor_config-dev.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/compiled\/js\/editor_config-dev.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/compiled\/js\/editor_config-dev-dev.js",
+      "fileType" : 64
+    },
     "\/compiled\/default\/images\/dialog-title-bg.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -196,27 +205,16 @@
       "initialSize" : 938,
       "fileType" : 8192
     },
-    "\/compiled\/default\/images\/scale.png" : {
+    "\/compiled\/default\/images\/cursor_h.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/compiled\/default\/images\/scale.png",
+      "inputAbbreviatedPath" : "\/compiled\/default\/images\/cursor_h.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/compiled\/default\/images\/scale.png",
-      "initialSize" : 167,
+      "outputAbbreviatedPath" : "\/compiled\/default\/images\/cursor_h.png",
+      "initialSize" : 175,
       "fileType" : 8192
-    },
-    "\/compiled\/js\/editor_config-dev.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/compiled\/js\/editor_config-dev.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/compiled\/js\/editor_config-dev-dev.js",
-      "fileType" : 64
     },
     "\/compiled\/js-lib\/uparse.js" : {
       "ignoreWasSetByUser" : 0,
@@ -461,16 +459,18 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/compiled\/js-lib\/editor_all.js" : {
+    "\/source\/less\/main.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/compiled\/js-lib\/editor_all.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/compiled\/js\/editor_all-dev.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/source\/less\/main.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/compiled\/css\/main.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     }
   },
   "manualImportLinks" : [
