@@ -1,7 +1,7 @@
-// @fileOverview: /Users/ice/dev/testdev/source/js/1.js
-// Date: 2013- 2-18
-// Time: 17:42
-// @description: this is a test
+// @fileOverview: /Users/ice/Sites/testdev/source/jade/modules/demo/demo.js
+// Date: 2013- 2-21
+// Time: 18:24
+// @description: a demo js
 // @author: gongbing
 
 /*jshint browser: true, nomen: true, indent: 4, maxlen: 80, strict: true, curly: true */
@@ -29,6 +29,6 @@
 
     var dog = animal ('scruffy');
     dog.kill();
-    //console.log(dead);
+    console.log(dead);
 
 }(window, document));

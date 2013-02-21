@@ -5,12 +5,11 @@
 // @author: gongbing
 
 /*jshint browser: true, nomen: true, indent: 4, maxlen: 80, strict: true, curly: true */
-/*global define: true, $: true, _: true */
 
 // DEBUG MODE
 /*jshint devel: true */
 
-// @description: 
+// @description:
 (function (window, ducment, undefined) {
     'use strict';
 

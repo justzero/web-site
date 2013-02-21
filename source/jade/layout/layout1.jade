@@ -7,9 +7,10 @@ html
         include ../common/js-lib
         include ../common/css
         include ../common/js
+        block styles
 
     body
-        div This is a test for upload image.
-        include ../modules/imageUpload
-    script(type='text/javascript', src='../js/editor-dev.js')
+        block content
+
+    block scripts
 

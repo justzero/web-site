@@ -1,0 +1,13 @@
+extends ../layout/layout1
+
+block styles
+    link(rel="stylesheet", type="text/css", href="../css/upload.css")
+
+block content
+    include ../modules/editor/imageUpload
+
+block scripts
+    script(type='text/javascript', src='../js-lib/editor_config.js')
+    script(type='text/javascript', src='../js-lib/editor_all.js')
+    script(type='text/javascript', src='../js/editor-dev.js')
+    script(type='text/javascript', src='../js/upload-dev.js')
