@@ -14,7 +14,7 @@
 (function (window, ducment, undefined) {
     'use strict';
 
-    document.domain = 'iyoudao.net';
+    //document.domain = 'iyoudao.net';
 
     //实例化编辑器
     var ue = UE.getEditor('editor');

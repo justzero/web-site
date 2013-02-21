@@ -90,15 +90,6 @@
       "outputAbbreviatedPath" : "\/compiled\/page\/meta.html",
       "fileType" : 512
     },
-    "\/compiled\/page\/layout1.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/compiled\/page\/layout1.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/compiled\/js-lib\/editor_all_min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -109,6 +100,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/compiled\/js\/editor_all_min-dev.js",
       "fileType" : 64
+    },
+    "\/compiled\/page\/layout1.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/compiled\/page\/layout1.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/source\/jade\/common\/js-lib.jade" : {
       "ignoreWasSetByUser" : 0,
@@ -143,14 +143,16 @@
       "initialSize" : 167,
       "fileType" : 8192
     },
-    "\/compiled\/css\/main.css" : {
+    "\/compiled\/default\/images\/sparator_v.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/compiled\/css\/main.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/compiled\/default\/images\/sparator_v.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/compiled\/default\/images\/sparator_v.png",
+      "initialSize" : 122,
+      "fileType" : 8192
     },
     "\/compiled\/default\/images\/cursor_h.png" : {
       "ignoreWasSetByUser" : 0,
@@ -185,16 +187,14 @@
       "outputAbbreviatedPath" : "\/compiled\/js\/editor_config-dev-dev.js",
       "fileType" : 64
     },
-    "\/compiled\/default\/images\/dialog-title-bg.png" : {
+    "\/compiled\/css\/main.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/compiled\/default\/images\/dialog-title-bg.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/compiled\/default\/images\/dialog-title-bg.png",
-      "initialSize" : 938,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/compiled\/css\/main.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/compiled\/js-lib\/underscore-min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -207,15 +207,15 @@
       "outputAbbreviatedPath" : "\/compiled\/js\/underscore-min-dev.js",
       "fileType" : 64
     },
-    "\/compiled\/default\/images\/sparator_v.png" : {
+    "\/compiled\/default\/images\/dialog-title-bg.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/compiled\/default\/images\/sparator_v.png",
+      "inputAbbreviatedPath" : "\/compiled\/default\/images\/dialog-title-bg.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/compiled\/default\/images\/sparator_v.png",
-      "initialSize" : 122,
+      "outputAbbreviatedPath" : "\/compiled\/default\/images\/dialog-title-bg.png",
+      "initialSize" : 938,
       "fileType" : 8192
     },
     "\/compiled\/js-lib\/uparse.js" : {
@@ -284,17 +284,6 @@
       "initialSize" : 170,
       "fileType" : 8192
     },
-    "\/compiled\/js\/editor_all-dev.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/compiled\/js\/editor_all-dev.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/compiled\/js\/editor_all-dev-dev.js",
-      "fileType" : 64
-    },
     "\/source\/jade\/modules\/imageUpload.jade" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -306,25 +295,16 @@
       "outputAbbreviatedPath" : "\/compiled\/page\/imageUpload.html",
       "fileType" : 512
     },
-    "\/source\/jade\/index.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/source\/jade\/index.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/compiled\/page\/index.html",
-      "fileType" : 512
-    },
-    "\/compiled\/page\/index.html" : {
+    "\/compiled\/js\/editor_all-dev.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/compiled\/page\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/compiled\/js\/editor_all-dev.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/compiled\/js\/editor_all-dev-dev.js",
+      "fileType" : 64
     },
     "\/source\/js\/editor.js" : {
       "ignoreWasSetByUser" : 0,
@@ -336,6 +316,26 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/compiled\/js\/editor-dev.js",
       "fileType" : 64
+    },
+    "\/compiled\/page\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/compiled\/page\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/source\/jade\/index.jade" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/source\/jade\/index.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 1,
+      "outputAbbreviatedPath" : "\/compiled\/page\/index.html",
+      "fileType" : 512
     },
     "\/compiled\/js\/1-dev.js" : {
       "ignoreWasSetByUser" : 0,
@@ -399,14 +399,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/compiled\/page\/meta.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+    "\/source\/js\/upload.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/compiled\/page\/meta.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/source\/js\/upload.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/compiled\/js\/upload-dev.js",
+      "fileType" : 64
     },
     "\/source\/jade\/layout\/layout1.jade" : {
       "ignoreWasSetByUser" : 0,
@@ -419,16 +421,14 @@
       "outputAbbreviatedPath" : "\/compiled\/page\/layout1.html",
       "fileType" : 512
     },
-    "\/source\/js\/upload.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 0,
+    "\/compiled\/page\/meta.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/source\/js\/upload.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/compiled\/js\/upload-dev.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/compiled\/page\/meta.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/compiled\/js\/zh-cn.js" : {
       "ignoreWasSetByUser" : 0,
