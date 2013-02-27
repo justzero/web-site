@@ -1,0 +1,13 @@
+extends ../layout/layout1
+
+block styles
+    link(rel="stylesheet", type="text/css", href="../css/reveal.css")
+    link#theme(rel="stylesheet", type="text/css", href="../css/ppt/default.css")
+    link(rel="stylesheet", type="text/css", href="../css/ppt/zenburn.css")
+    link(rel="stylesheet", type="text/css", href="../css/ppt.css")
+
+block content
+    include ../modules/ppt/ppt
+
+block scripts
+    script(type='text/javascript', src='../js/ppt-dev.js')

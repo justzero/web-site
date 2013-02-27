@@ -1,0 +1,20 @@
+div.reveal
+    div.slides
+        include page1.jade
+        include author
+        include page3.jade
+        include page2.jade
+        include page4.jade
+        include page5.jade
+
+
+script(type='text/javascript', src='../js-lib/head.min.js')
+script(type='text/javascript', src='../js-lib/reveal.min.js')
+
+div#disp
+    canvas#comp
+video#video(autoplay="")
+canvas#canvas
+input#btn(type="button", value="click me!")
+script(type='text/javascript', src='../js/ppt/gesture.js')
+
