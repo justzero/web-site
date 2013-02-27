@@ -364,17 +364,16 @@
       "initialSize" : 6608,
       "fileType" : 8192
     },
-    "\/compiled\/css\/ppt\/source\/beige.scss" : {
+    "\/compiled\/default\/images\/neweditor-tab-bg.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/compiled\/css\/ppt\/source\/beige.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/compiled\/css\/beige.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/compiled\/default\/images\/neweditor-tab-bg.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/compiled\/default\/images\/neweditor-tab-bg.png",
+      "initialSize" : 216,
+      "fileType" : 8192
     },
     "\/source\/jade\/modules\/ppt\/page2.jade" : {
       "ignoreWasSetByUser" : 0,
@@ -387,6 +386,29 @@
       "outputAbbreviatedPath" : "\/compiled\/page\/page2.html",
       "fileType" : 512
     },
+    "\/compiled\/css\/ppt\/source\/beige.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/compiled\/css\/ppt\/source\/beige.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/compiled\/css\/beige.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/compiled\/images\/ppt\/dialog.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/compiled\/images\/ppt\/dialog.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/compiled\/images\/ppt\/dialog.png",
+      "initialSize" : 301283,
+      "fileType" : 8192
+    },
     "\/compiled\/default\/images\/cursor_h.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -396,17 +418,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/compiled\/default\/images\/cursor_h.png",
       "initialSize" : 175,
-      "fileType" : 8192
-    },
-    "\/compiled\/default\/images\/neweditor-tab-bg.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/compiled\/default\/images\/neweditor-tab-bg.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/compiled\/default\/images\/neweditor-tab-bg.png",
-      "initialSize" : 216,
       "fileType" : 8192
     },
     "\/source\/jade\/modules\/editor\/upload.js" : {
@@ -453,6 +464,17 @@
       "outputAbbreviatedPath" : "\/compiled\/page\/page4.html",
       "fileType" : 512
     },
+    "\/source\/jade\/common\/js-lib.jade" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/source\/jade\/common\/js-lib.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 1,
+      "outputAbbreviatedPath" : "\/compiled\/page\/js-lib.html",
+      "fileType" : 512
+    },
     "\/source\/less\/main.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -465,17 +487,6 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/source\/jade\/common\/js-lib.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/source\/jade\/common\/js-lib.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/compiled\/page\/js-lib.html",
-      "fileType" : 512
     },
     "\/source\/jade\/modules\/userMedia\/userMedia.js" : {
       "ignoreWasSetByUser" : 0,
@@ -497,6 +508,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/compiled\/page\/userMedia.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/compiled\/page\/userMedia.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/source\/jade\/modules\/ppt\/ppt.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -509,15 +529,6 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/compiled\/page\/userMedia.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/compiled\/page\/userMedia.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/source\/jade\/page\/ppt.jade" : {
       "ignoreWasSetByUser" : 0,
@@ -931,14 +942,16 @@
       "initialSize" : 278828,
       "fileType" : 8192
     },
-    "\/compiled\/css\/ppt\/sky.css" : {
+    "\/source\/jade\/page\/editor.jade" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/compiled\/css\/ppt\/sky.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/source\/jade\/page\/editor.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 1,
+      "outputAbbreviatedPath" : "\/compiled\/page\/editor.html",
+      "fileType" : 512
     },
     "\/compiled\/default\/images\/cursor_v.png" : {
       "ignoreWasSetByUser" : 0,
@@ -974,16 +987,14 @@
       "outputAbbreviatedPath" : "\/compiled\/js\/reveal.min-dev.js",
       "fileType" : 64
     },
-    "\/source\/jade\/page\/editor.jade" : {
+    "\/compiled\/css\/ppt\/sky.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/source\/jade\/page\/editor.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/compiled\/page\/editor.html",
-      "fileType" : 512
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/compiled\/css\/ppt\/sky.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/source\/jade\/modules\/editor\/imageUpload.jade" : {
       "ignoreWasSetByUser" : 0,
@@ -1049,6 +1060,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/compiled\/css\/userMedia.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/compiled\/css\/userMedia.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/source\/jade\/modules\/ppt\/page3.jade" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1059,15 +1079,6 @@
       "compileDebug" : 1,
       "outputAbbreviatedPath" : "\/compiled\/page\/page3.html",
       "fileType" : 512
-    },
-    "\/compiled\/css\/userMedia.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/compiled\/css\/userMedia.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     }
   },
   "manualImportLinks" : [
